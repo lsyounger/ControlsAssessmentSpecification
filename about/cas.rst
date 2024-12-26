@@ -12,13 +12,13 @@ Note that the focus of CAS is on "what to measure" rather than "how to measure".
 Methodology
 -----------
 
-The CIS Controls provide cybersecurity best practices designed to help organizations of all types secure a wide variety of systems.  Because the CIS Controls cover so many security topics, and apply to such a wide variety of hardware and software that can be used in many different ways, measuring the CIS Controls is a complex challenge.  Different approaches to measuring the Controls can result in multiple ways of measuring the same Sub-Control.  
+The CIS Controls provide cybersecurity best practices designed to help organizations of all types secure a wide variety of systems.  Because the CIS Controls cover so many security topics, and apply to such a wide variety of hardware and software that can be used in many different ways, measuring the CIS Controls is a complex challenge.  Different approaches to measuring the Controls can result in multiple ways of measuring the same Safeguard.  
 
-One useful distinction is measuring whether a Sub-Control has been implemented vs. measuring how well the Safeguard was implemented.  Measuring whether a Safeguard is implemented need not be a binary yes or no; for instance, it could be a numerical score indicating how many endpoints in an environment have implemented that Safeguard.  Measuring how well a Safegaurd is implemented looks more to the intended effect of the Safeguard examining whether the desired security gains are being realized.  Measuring whether a Safeguard is implemented often involves checking whether something is configured in a certain way, while measuring how well often requires more involved checks including more active testing.
+One useful distinction is measuring whether a Safeguard has been implemented vs. measuring how well the Safeguard was implemented.  Measuring whether a Safeguard is implemented need not be a binary yes or no; for instance, it could be a numerical score indicating how many endpoints in an environment have implemented that Safeguard.  Measuring how well a Safegaurd is implemented looks more to the intended effect of the Safeguard examining whether the desired security gains are being realized.  Measuring whether a Safeguard is implemented often involves checking whether something is configured in a certain way, while measuring how well often requires more involved checks including more active testing.
 
 While both of these measurement approaches are useful and have their place, for this first version of CAS, we have focused on measuring whether a Safeguard has been implemented (which we have termed Level 1 checks).  It is our hope that future versions of CAS will expand to include measurements of how well a Safeguard is implemented as well (which we have termed Level 2 checks).
 
-Specific configuration details are not specified in CAS, as these would vary from platform to platform, and would encroach on "how to measure".  When there are multiple ways to implement a Sub-Control, CAS attempts to be generic enough to cover these varying methods in its measures.  Where assumptions are made, CAS attempts to explicitly state them.
+Specific configuration details are not specified in CAS, as these would vary from platform to platform, and would encroach on "how to measure".  When there are multiple ways to implement a Safeguard, CAS attempts to be generic enough to cover these varying methods in its measures.  Where assumptions are made, CAS attempts to explicitly state them.
 
 
 Structure of a Safeguard Measurement
@@ -66,7 +66,7 @@ CAS follows a semantic versioning approach based on semver.org and having the fo
 
 * Major: Significant and material changes to 
   * The organization of the document
-  * Structure of sub-control measures
+  * Structure of Safeguard measures
   * Inputs, measures, metrics on the whole
-* Minor: Material changes to parts of sub-control measures or metrics
+* Minor: Material changes to parts of Safeguard measures or metrics
 * Point: Immaterial changes, such as prose typos, document look and feel
